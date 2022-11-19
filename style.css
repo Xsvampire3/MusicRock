@@ -148,7 +148,7 @@ h1{
 	border: 1px solid pink;
 	padding: 6px;
 	padding-bottom: 0px;
-	margin: 4px;
+	margin: 8px;
 	text-shadow: 2px 2px blue;
 	box-shadow: 4px 4px blue;
 	float:left;
@@ -161,9 +161,9 @@ h1{
 }
 
 .poster img{
-	width:150px;
-	height:150px;
-	box-shadow:4px 4px green;
+	width:120px;
+	height:120px;
+	box-shadow:4px 4px wheat;
 }
 
 .poster img:hover{
@@ -173,8 +173,10 @@ h1{
 }
 
 .poster h2{
-	font-size:18px;
+	font-size:16px;
 	color:red;
+	padding: 2px;
+	margin: 0px;
 }
 
 .po2{
@@ -183,11 +185,38 @@ h1{
 
 #po3{
 	color:pink;
+	padding: 2px;
+	margin: 0px;
 }
 
 #po4{
 	color:yellow;
+	padding: 2px;
+	margin: 0px;
 }
+
+audio{
+	width:4.5cm;
+	height: 0.6cm;
+	padding: 2px;
+	margin: 1.5px;
+	margin-left: 0px;
+}
+
+.btn {
+	background-color: rgb(255, 30, 30);
+	border: 2px solid blue;
+	color: white;
+	padding: 2px;
+	margin: 2px;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 12px;
+  }
+
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
 
 #intro{
 	background-color: rgba(106, 99, 71, 0.2);
@@ -208,6 +237,87 @@ h1{
 	color:rgb(143, 216, 36);
 }
 
-#space{
+.space{
 	margin:335px;
 }
+
+footer{
+	background-color: rgba(90, 99, 71, 0.7);
+	padding: 0px;
+	margin: 0px;
+	border:1px solid rgba(90, 99, 71, 0.7) ;
+}
+
+footer p{
+	font-size: 16px;
+	padding: 4px;
+	margin: 6px;
+}
+
+#footer2{
+	color: orange;
+	margin: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.social-media {
+    
+    height: 7rem;
+    width: 350px;
+    display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+.social-media img:hover{
+	transform: scale(1.1);
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#facebook{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 70px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#instagram{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#likedin{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#slack{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+#youtube{
+    height: 44px;
+    width: 44px;
+    border-radius: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+	border:2px solid grey;
+	box-shadow:4px 4px black;
+}
+
+

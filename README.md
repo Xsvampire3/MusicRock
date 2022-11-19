@@ -1,2 +1,2 @@
 ## MusicRock
-You can watch/download songs for free.
+You can listen/download songs for free.
