@@ -294,6 +294,26 @@ audio{
 .space{
 	margin:335px;
 }
+.space2{
+  margin: 20px;
+}
+
+.more{
+  margin-top: 260px;
+  padding: 10px;
+  cursor:pointer;
+  font-weight: bold;
+  color: blue;
+  border-color: #44107a;
+  border-radius: 12px;
+  background-color: orange;
+}
+.more:hover{
+  transform: scale(1.1);
+  border-color: #44107a;
+  color: blue;
+  background-color: rgb(255, 0, 0);
+}
 
 footer{
 	background-color: rgba(90, 99, 71, 0.7);
