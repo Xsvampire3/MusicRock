@@ -130,9 +130,11 @@ header{
 }
 
 body{
-	background-image: url("background3.jpg");
+	background-image: url("back4.jpg");
 	background-size: cover;
 	background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1{
@@ -156,6 +158,7 @@ h1{
 
 .poster:hover{
 	transform: scale(1.1);
+  background-color: rgba(248, 18, 91, 0.5); 
 	border:1px solid blue;
 	box-shadow:4px 4px blue;
 }
@@ -285,7 +288,7 @@ audio{
 	font-family:  cursive;
 	padding:5px;
 	margin:0px;
-	color:rgb(143, 216, 36);
+	color:rgb(16, 20, 241);
 }
 
 .space{
